@@ -1,37 +1,107 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ClubDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClubObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClubDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClubDatos.dll": {}
+        }
+      },
+      "ClubObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClubObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClubObjects.dll": {}
+        }
+      },
+      "GestionApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClubDatos": "1.0.0",
+          "ClubObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestionApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestionApp.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClubDatos/1.0.0": {
+      "type": "project",
+      "path": "../ClubDatos/ClubDatos.csproj",
+      "msbuildProject": "../ClubDatos/ClubDatos.csproj"
+    },
+    "ClubObjects/1.0.0": {
+      "type": "project",
+      "path": "../ClubObjects/ClubObjects.csproj",
+      "msbuildProject": "../ClubObjects/ClubObjects.csproj"
+    },
+    "GestionApp/1.0.0": {
+      "type": "project",
+      "path": "../GestionApp/GestionApp.csproj",
+      "msbuildProject": "../GestionApp/GestionApp.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ClubDatos >= 1.0.0",
+      "ClubObjects >= 1.0.0",
+      "GestionApp >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Anass\\.nuget\\packages\\": {}
+    "C:\\Users\\1daw3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anass\\mascotasV2\\ClubConsole\\ClubConsole.csproj",
+      "projectUniqueName": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubConsole\\ClubConsole.csproj",
       "projectName": "ClubConsole",
-      "projectPath": "C:\\Users\\Anass\\mascotasV2\\ClubConsole\\ClubConsole.csproj",
-      "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anass\\mascotasV2\\ClubConsole\\obj\\",
+      "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubConsole\\ClubConsole.csproj",
+      "packagesPath": "C:\\Users\\1daw3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\1daw3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj": {
+              "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj"
+            },
+            "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {
+              "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj"
+            },
+            "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\GestionApp\\GestionApp.csproj": {
+              "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\GestionApp\\GestionApp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,7 +128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

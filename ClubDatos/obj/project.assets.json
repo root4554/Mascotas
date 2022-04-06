@@ -1,37 +1,62 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ClubObjects/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClubObjects.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClubObjects.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClubObjects/1.0.0": {
+      "type": "project",
+      "path": "../ClubObjects/ClubObjects.csproj",
+      "msbuildProject": "../ClubObjects/ClubObjects.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ClubObjects >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Anass\\.nuget\\packages\\": {}
+    "C:\\Users\\1daw3\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anass\\mascotasV2\\ClubDatos\\ClubDatos.csproj",
+      "projectUniqueName": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj",
       "projectName": "ClubDatos",
-      "projectPath": "C:\\Users\\Anass\\mascotasV2\\ClubDatos\\ClubDatos.csproj",
-      "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anass\\mascotasV2\\ClubDatos\\obj\\",
+      "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj",
+      "packagesPath": "C:\\Users\\1daw3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\1daw3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {
+              "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -45,14 +45,15 @@ public class Gestion
         public void ActualizarRepoMasc(){
              RepoMasc.Guardar(misMascotas);
         }
-       /* public List<Mascota> EncontrarMascotasPorDNI(Socio uno)
-            => misMascotas.FindAll(mascota => uno.DNI.Equals(mascota.DNIPr));    */     
+        /*public List<Mascota> EncontrarMascotasPorID(Socio uno)
+            => misMascotas.FindAll(mascota => uno.SocioId.Equals(mascota.DNIPr));*/        
         public void BorrarMascota( Mascota p)
         {
             misMascotas.Remove(p);
             RepoMasc.Guardar(misMascotas);
 
         }
+        
         /*public void BorrarMascotasDeSocio(Socio uno)
         {
             misMascotas.RemoveAll(mascota => uno.DNI.Equals(mascota.DNIPr));

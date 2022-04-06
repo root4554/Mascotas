@@ -1,8 +1,9 @@
 using ClubObjects;
 using GestionApp;
-using ClubDatos;
 
-namespace Consola;
+
+
+namespace ClubConsole;
 
     class Controlador
     {
@@ -17,8 +18,8 @@ namespace Consola;
 
         private Dictionary<string, Action> _usoMascota;
 
-
-        public Controlador(Vista vista, Gestor businessLogic)
+        
+        public Controlador(vista vista, Gestion businessLogic)
         {
             _vista = vista;
             _sistema = businessLogic;
@@ -28,9 +29,9 @@ namespace Consola;
                 {"Ver lista de Socios",VerSocios},
                 {"Dar de alta a una Nueva Mascota",AñadirMascota},
                 {"Ver las Mascotas del Club",VerMascotasDelClub},
-                {"Ver las Mascotas de cada Socio",VerMascotasSocio},
-                {"Comprar Mascota",Comprar},
-                {"Poner en venta Mascota",PonerEnVentaMascotaSocio},
+                //{"Ver las Mascotas de cada Socio",VerMascotasSocio},
+               // {"Comprar Mascota",Comprar},
+               // {"Poner en venta Mascota",PonerEnVentaMascotaSocio},
                 {"Salir",Salir}           
 
             };
@@ -73,14 +74,15 @@ namespace Consola;
         {
             try
             {
+                var SocioID = _vista.TryObtenerDatoDeTipo<string>("ID del Socio");
                 var nombre = _vista.TryObtenerDatoDeTipo<string>("Nombre del Socio");
-                var dni = _vista.TryObtenerDatoDeTipo<string>("DNI del Socio");
+                //var dni = _vista.TryObtenerDatoDeTipo<string>("DNI del Socio");
                 var sexo = _vista.TryObtenerDatoDeTipo<Sexo>("Sexo del Socio ( H-M-NB )");
                 Socio nuevo = new Socio
                 (
-                    Nombre: nombre,
-                    DNI : dni,
-                    Sexo : sexo
+                    socioID: SocioID,
+                    nombreS: nombre,
+                    sexo : sexo
                     
                 );
 
@@ -101,14 +103,14 @@ namespace Consola;
            Socio p;
 
             p = _vista.TryObtenerElementoDeLista("Socios del Club de Mascotas       ", _sistema.misSocios, "Selecciona un Socio para dar de baja ");     
-            if(p.Nombre!="Club"){           
+            if(p.NombreS!="Club"){           
             _sistema.BorrarSocio(p);
 
             aux=p;
 
             _usoSocio = new Dictionary<string, Action>(){
-                {"Eliminar mascotas", EliminarMascota},
-                {"Poner en venta mascotas",PonerEnVentaMascota}       
+               // {"Eliminar mascotas", EliminarMascota},
+               // {"Poner en venta mascotas",PonerEnVentaMascota}       
 
             };
              var menu2 = _usoSocio.Keys.ToList<String>();
@@ -141,19 +143,21 @@ namespace Consola;
         {
            try
             {
+                var idMascota = _vista.TryObtenerDatoDeTipo<string>("el ID de la Mascota ");
                 var nombre = _vista.TryObtenerDatoDeTipo<string>("Nombre de la Mascota ");
-                var especie = _vista.TryObtenerElementoDeLista<TipoEspecie>("Tipo de especie ", _vista.EnumToList<TipoEspecie>(),"Selecciona uno ");
-                var edad = _vista.TryObtenerDatoDeTipo<string>("Edad de la Mascota ");
-                var dni = _vista.TryObtenerDatoDeTipo<string>("DNI del dueño  ");
-                var venta = _vista.TryObtenerDatoDeTipo<string>("Esta en venta : True/False ");
+                var especie = _vista.TryObtenerElementoDeLista<Especie>("Especie de mascota ", _vista.EnumToList<Especie>(),"Selecciona uno ");
+                var edadM = _vista.TryObtenerDatoDeTipo<string>("Edad de la Mascota ");
+               // var dni = _vista.TryObtenerDatoDeTipo<string>("DNI del dueño  ");
+                //var venta = _vista.TryObtenerDatoDeTipo<string>("Esta en venta : True/False ");
 
                 Mascota nueva = new Mascota
                 (
-                    Nombre: nombre,
-                    Especie : especie,
-                    Edad : int.Parse(edad),
-                    DNIPr : dni,
-                    enVenta: venta
+                    idmascota:idMascota,
+                    nombreM: nombre,
+                    especie : especie,
+                    edad : int.Parse(edadM)
+                   // DNIPr : dni,
+                    //enVenta: venta
                 );
 
                 _sistema.NuevaMasc(nueva);
@@ -164,7 +168,7 @@ namespace Consola;
 
         }
 
-        private void VerMascotasSocio() 
+      /*  private void VerMascotasSocio() 
         {
              Socio p;
 
@@ -182,7 +186,7 @@ namespace Consola;
             }
 
 
-        }
+        }*/
 
         private void VerMascotasDelClub()
         {
@@ -216,11 +220,11 @@ namespace Consola;
         {
             _vista.MostrarListaEnumerada<Mascota>("Mascotas ordenadas por especie ",_sistema.misMascotas.OrderByDescending(mascota => mascota.Especie).ToList());
         }
-        private void PonerEnVentaMascota(){
+       /* private void PonerEnVentaMascota(){
             _sistema.VenderMascota(aux);
             _vista.Mostrar("\nMascotas en venta");
-        }
-        private void PonerEnVentaMascotaSocio(){
+        }*/
+        /*private void PonerEnVentaMascotaSocio(){
              Socio p;
              Mascota m;
 
@@ -238,12 +242,14 @@ namespace Consola;
             _vista.Mostrar("\nMascotas en venta");
             }
 
-        }
-        private void EliminarMascota(){
+        }*/
+
+
+        /*private void EliminarMascota(){
             _sistema.BorrarMascotasDeSocio(aux);    
             _vista.Mostrar("Las Mascotas fueron borradas del sistema\nGracias . ");  
-        }
-        public void Comprar()
+        }*/
+      /*  public void Comprar()
         {        
             Mascota masc;
             masc = _vista.TryObtenerElementoDeLista("Lista de Mascotas en venta ", _sistema.VerMascotasEnVenta(), "Selecciona una Mascota que quieras comprar");
@@ -260,7 +266,7 @@ namespace Consola;
             }  
             _vista.Mostrar("\nMascota comprada!!\n");         
 
-        }   
+        }   */
         
         
     }

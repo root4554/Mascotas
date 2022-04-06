@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\ClubConsole\ClubConsole.csproj" />
     <ProjectReference Include="..\ClubObjects\ClubObjects.csproj" />
     <ProjectReference Include="..\ClubDatos\ClubDatos.csproj" />
   </ItemGroup>

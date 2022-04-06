@@ -1,0 +1,17 @@
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\bin\Debug\net6.0\GestionApp.deps.json
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\bin\Debug\net6.0\GestionApp.dll
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\bin\Debug\net6.0\GestionApp.pdb
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\bin\Debug\net6.0\ClubDatos.dll
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\bin\Debug\net6.0\ClubObjects.dll
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\bin\Debug\net6.0\ClubObjects.pdb
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\bin\Debug\net6.0\ClubDatos.pdb
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\GestionApp.csproj.AssemblyReference.cache
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\GestionApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\GestionApp.AssemblyInfoInputs.cache
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\GestionApp.AssemblyInfo.cs
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\GestionApp.csproj.CoreCompileInputs.cache
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\GestionApp.csproj.CopyComplete
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\GestionApp.dll
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\refint\GestionApp.dll
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\GestionApp.pdb
+C:\Users\1daw3\mascotasV2\Mascotas\GestionApp\obj\Debug\net6.0\ref\GestionApp.dll

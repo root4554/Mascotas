@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ClubDatos/1.0.0": {
+        "dependencies": {
+          "ClubObjects": "1.0.0"
+        },
+        "runtime": {
+          "ClubDatos.dll": {}
+        }
+      },
+      "ClubObjects/1.0.0": {
+        "runtime": {
+          "ClubObjects.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClubDatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClubObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

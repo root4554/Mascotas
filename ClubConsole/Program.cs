@@ -1,6 +1,6 @@
-﻿using ClubObjects;
-using GestionApp;
+﻿using GestionApp;
 using ClubDatos;
+using ClubConsole;
 
 var repoMasc = new MascotasCSV();
 var repoSocio = new SociosCSV();
