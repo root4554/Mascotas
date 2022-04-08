@@ -8,7 +8,7 @@ namespace ClubDatos;
     
     public class SociosCSV : SaveData<Socio>
     {
-        string _file2 = "../../RepositoriosCSV/Socios.csv";
+        string _file2 = "../CSVrepository/Socios.csv";
 
         public void Guardar(List<Socio> misSocios)
         {

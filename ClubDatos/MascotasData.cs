@@ -5,7 +5,7 @@ namespace ClubDatos;
  public class MascotasCSV : SaveData<Mascota>
     {
 
-        string _file1 = "../../RepositoriosCSV/Mascotas.csv";
+        string _file1 = "../CSVrepository/Mascotas.csv";
 
 
         //Persistencia
