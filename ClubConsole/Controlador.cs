@@ -24,15 +24,15 @@ namespace ClubConsole;
             _vista = vista;
             _sistema = businessLogic;
             _casosDeUso = new Dictionary<string, Action>(){
-                {"Dar de alta a un Nuevo Socio", DarDeAltaS},
+                {"Alta por una persona", DarDeAltaS},
                 {"Dar de baja a un Socio",DarDeBajaS},
-                {"Ver lista de Socios",VerSocios},
-                {"Dar de alta a una Nueva Mascota",AñadirMascota},
-                {"Ver las Mascotas del Club",VerMascotasDelClub},
+                {"Mostrar lista de Socios",VerSocios},
+                {"Anadir una Mascota",AñadirMascota},
+                {"Mostrar mascotas",VerMascotasDelClub},
                 //{"Ver las Mascotas de cada Socio",VerMascotasSocio},
                // {"Comprar Mascota",Comprar},
                // {"Poner en venta Mascota",PonerEnVentaMascotaSocio},
-                {"Salir",Salir}           
+                {"Salir de  programa",Salir}           
 
             };
         }
@@ -49,12 +49,12 @@ namespace ClubConsole;
                     //Limpiamos
                     _vista.LimpiarPantalla();
                     //Menu
-                    var key = _vista.TryObtenerElementoDeLista("Bienvenido a tu Club de Mascotas", menu, "Selecciona una opcion ");
+                    var key = _vista.TryObtenerElementoDeLista("Club de Mascotas", menu, "Selecciona una opcion ");
                     _vista.Mostrar("");
                     //Ejecucion de la opcion escogida
                     _casosDeUso[key].Invoke();
                     //Fin
-                    _vista.MostrarYReturn("Pulsa <Return> para continuar");
+                    _vista.MostrarYReturn("Entrar para volver al menu principal");
 
                 }
                 catch { return; }
@@ -62,7 +62,7 @@ namespace ClubConsole;
         public void Salir()
         {
             var key = "fin";
-             _vista.Mostrar("Gracias\n\nHasta la próxima!!\n\n");
+             _vista.Mostrar("Has salido de programa");
            
            _casosDeUso[key].Invoke();
         }

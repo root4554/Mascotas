@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj": {}
+    "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj": {
+    "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj",
         "projectName": "ClubDatos",
-        "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj",
-        "packagesPath": "C:\\Users\\1daw3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubDatos\\obj\\",
+        "projectPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj",
+        "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1daw3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {
-                "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj"
+              "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {
+                "projectPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj"
               }
             }
           }
@@ -58,28 +56,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {
+    "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
+        "projectUniqueName": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
         "projectName": "ClubObjects",
-        "projectPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
-        "packagesPath": "C:\\Users\\1daw3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1daw3\\mascotasV2\\Mascotas\\ClubObjects\\obj\\",
+        "projectPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
+        "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1daw3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -112,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -10,3 +10,15 @@ C:\Users\1daw3\mascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.dll
 C:\Users\1daw3\mascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\refint\ClubObjects.dll
 C:\Users\1daw3\mascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.pdb
 C:\Users\1daw3\mascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ref\ClubObjects.dll
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\bin\Debug\net6.0\ClubObjects.deps.json
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\bin\Debug\net6.0\ClubObjects.dll
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\bin\Debug\net6.0\ClubObjects.pdb
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.csproj.AssemblyReference.cache
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.AssemblyInfoInputs.cache
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.AssemblyInfo.cs
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.csproj.CoreCompileInputs.cache
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.dll
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\refint\ClubObjects.dll
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ClubObjects.pdb
+C:\Users\anass\MascotasV2\Mascotas\ClubObjects\obj\Debug\net6.0\ref\ClubObjects.dll
