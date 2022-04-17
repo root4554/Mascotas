@@ -20,4 +20,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GestionApp\GestionApp.csproj" />
+    <ProjectReference Include="..\ClubObjects\ClubObjects.csproj" />
+  </ItemGroup>
+
 </Project>

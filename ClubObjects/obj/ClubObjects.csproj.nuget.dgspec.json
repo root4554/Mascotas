@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {}
+    "C:\\Users\\Anass\\mascotas\\ClubObjects\\ClubObjects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {
+    "C:\\Users\\Anass\\mascotas\\ClubObjects\\ClubObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
+        "projectUniqueName": "C:\\Users\\Anass\\mascotas\\ClubObjects\\ClubObjects.csproj",
         "projectName": "ClubObjects",
-        "projectPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
+        "projectPath": "C:\\Users\\Anass\\mascotas\\ClubObjects\\ClubObjects.csproj",
         "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\obj\\",
+        "outputPath": "C:\\Users\\Anass\\mascotas\\ClubObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config"

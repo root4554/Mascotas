@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
+      "projectUniqueName": "c:\\Users\\Anass\\Mascotas\\ClubObjects\\ClubObjects.csproj",
       "projectName": "ClubObjects",
-      "projectPath": "C:\\Users\\anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
+      "projectPath": "c:\\Users\\Anass\\Mascotas\\ClubObjects\\ClubObjects.csproj",
       "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anass\\MascotasV2\\Mascotas\\ClubObjects\\obj\\",
+      "outputPath": "c:\\Users\\Anass\\Mascotas\\ClubObjects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config"

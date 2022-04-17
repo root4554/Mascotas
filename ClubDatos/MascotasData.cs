@@ -6,16 +6,12 @@ namespace ClubDatos;
     {
 
         string _file1 = "../CSVrepository/Mascotas.csv";
-
-
-        //Persistencia
-
         public void Guardar(List<Mascota> misMascotas)
         {
             List<string> data = new() { };
             misMascotas.ForEach(Mascota =>
             {
-                var infoM = $"{Mascota.IDmascota},{Mascota.NombreM},{Mascota.Especie},{Mascota.Edad}";
+                var infoM = $"{Mascota.IDmascota},{Mascota.NombreM},{Mascota.Especie},{Mascota.Edad},{Mascota.IDPr}";
                 data.Add(infoM);
 
             });
@@ -32,7 +28,8 @@ namespace ClubDatos;
                     idmascota: campos[0],
                     nombreM: campos[1],
                     especie: (Especie)Enum.Parse((typeof(Especie)), campos[2]),
-                    edad: int.Parse(campos[3])
+                    edad: int.Parse(campos[3]),
+                    IDPersona: campos[4]
                 );
                 misMascotas.Add(mascota);
             });

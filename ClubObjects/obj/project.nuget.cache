@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ewbhyG1bW5IaHbCpBy8w+d0y+DccDgrvv4zKEb0TAPQh4mXhIXoaRx970x8z+eB72V02+sl5/dhdWd0rU4vZFw==",
+  "dgSpecHash": "2W287F64+73jpYVEodfahIKdWTTpkm3IVeVOt65r3GFipKrmXunU/5j9HXOnWFhRxlRXFsK/OWWq0LOXTMmyKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj",
+  "projectFilePath": "C:\\Users\\Anass\\mascotas\\ClubObjects\\ClubObjects.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

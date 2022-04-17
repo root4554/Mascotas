@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\GestionApp\\GestionApp.csproj",
+      "projectUniqueName": "C:\\Users\\Anass\\mascotas\\GestionApp\\GestionApp.csproj",
       "projectName": "GestionApp",
-      "projectPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\GestionApp\\GestionApp.csproj",
+      "projectPath": "C:\\Users\\Anass\\mascotas\\GestionApp\\GestionApp.csproj",
       "packagesPath": "C:\\Users\\Anass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\GestionApp\\obj\\",
+      "outputPath": "C:\\Users\\Anass\\mascotas\\GestionApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anass\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -70,11 +70,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj": {
-              "projectPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubDatos\\ClubDatos.csproj"
+            "C:\\Users\\Anass\\mascotas\\ClubDatos\\ClubDatos.csproj": {
+              "projectPath": "C:\\Users\\Anass\\mascotas\\ClubDatos\\ClubDatos.csproj"
             },
-            "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj": {
-              "projectPath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\ClubObjects\\ClubObjects.csproj"
+            "C:\\Users\\Anass\\mascotas\\ClubObjects\\ClubObjects.csproj": {
+              "projectPath": "C:\\Users\\Anass\\mascotas\\ClubObjects\\ClubObjects.csproj"
             }
           }
         }

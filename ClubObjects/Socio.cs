@@ -16,5 +16,5 @@ public class Socio
         Sexo = sexo;
     }
 
-    public override string ToString()=> $"{SocioId}{NombreS} {Sexo}";
+    public override string ToString()=> $"{SocioId} {NombreS} {Sexo}";
 }

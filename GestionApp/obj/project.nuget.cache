@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T0mAinI15ABCYQjEmjWkd48CI0XpAQWEca4piQTYDmVjXgaYK4U7Si9umfs8bFcl7TPlhLXwY02zoeym7PVUaA==",
+  "dgSpecHash": "bYrg/u3Chew9BMt2z0QcpqQoC8KsFyFrBnNAnU7FTW6FUTRbrKcXdAm3xmXY1Re0nLgVHzr0+Mt4qQiLusW1dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anass\\MascotasV2\\Mascotas\\GestionApp\\GestionApp.csproj",
+  "projectFilePath": "C:\\Users\\Anass\\mascotas\\GestionApp\\GestionApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
